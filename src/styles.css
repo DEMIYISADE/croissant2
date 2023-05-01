@@ -1,0 +1,39 @@
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Pacifico', cursive;
+    font-weight: 5px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+.col-4{
+    margin: 30px;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a:visited{
+    color: blue;
+}
+.body{
+    background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+img{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
